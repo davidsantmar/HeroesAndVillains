@@ -107,7 +107,7 @@ export function FightersAvailable({ fighters }) {
         >
           {fightersMap.length > 0 ? (
             fightersMap.map((fighter, id) => (
-              <ImageBackground key={id} style={styles.fighter_container} source={require ('../assets/screen-back.png')}>
+              <ImageBackground key={id} style={styles.fighter_container} source={require ('../assets/screen_back.png')}>
                 <Pressable style={styles.card} onPress={() => onSelectFighter(fighter)}>
                   <Image
                     source={{ uri: fighter.image?.url || 'https://via.placeholder.com/90x110' }}

@@ -58,7 +58,7 @@ export function FighterCard({ character, winlose}) {
                 }}
                 defaultSource={{ uri: 'https://via.placeholder.com/90x110' }}
               />
-          <ImageBackground style={styles.char_powers} source={require ('../assets/screen-back.png')}> 
+          <ImageBackground style={styles.char_powers} source={require ('../assets/screen_back.png')}> 
             {character.unknownData ? <Text style={styles.data_title}>Powerstats ❓</Text> : <Text style={styles.data_title}>Powerstats</Text>}
             {renderStat(
               'Intelligence',

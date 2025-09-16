@@ -447,7 +447,7 @@ export default function BattleArena() {
   }
   return (
     <ImageBackground style={styles.container}
-                    source={require('../assets/space.png')}
+                    source={require('../assets/space.jpg')}
                     resizeMode="cover">
         {characterToShow && enemyToShow ? (
             <>

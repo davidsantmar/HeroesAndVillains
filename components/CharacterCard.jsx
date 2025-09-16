@@ -23,7 +23,7 @@ export function CharacterCard({ item }) {
   return (
     <ScrollView>
       <View style={styles.container}>
-        <ImageBackground style={styles.card}  source={require ('../assets/screen-back.png')}>
+        <ImageBackground style={styles.card}  source={require ('../assets/screen_back.png')}>
           <Text style={styles.name_title}>{character.name}</Text>
               <Image
                 style={styles.picture}

@@ -69,8 +69,8 @@ async function playAmbient() {
   return (
     <>
       
-      <ImageBackground style={styles.container} source={require ('../assets/data_handling.png')}>
-        <ImageBackground style={styles.text_background}  source={require ('../assets/screen-back.png')}>
+      <ImageBackground style={styles.container} source={require ('../assets/data_handling.jpg')}>
+        <ImageBackground style={styles.text_background}  source={require ('../assets/screen_back.png')}>
           <View style={styles.text_container}>
             <Text style={styles.text}>Random file</Text>
           </View>
